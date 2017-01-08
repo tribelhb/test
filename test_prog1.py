@@ -3,4 +3,4 @@ def func(x):
   return x+5
 
 def test_func():
-  assert func(5)==14
+  assert func(5)==10
