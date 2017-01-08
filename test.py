@@ -1,6 +1,6 @@
-def func():
+def func(x):
   print "This is a test"
-  this is an error
+  return x+5
 
 def test_func():
-  func()
+  assert func(5)==14
