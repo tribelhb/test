@@ -4,8 +4,9 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install pytest-cov
+  - pip install codecov
 script:
   - py.test --cov=./
-  - codecov --token=codecov --token=
+  - codecov --token=47327a25-c1e3-4122-ba8d-fb0140359f02
 after_success:
   - bash <(curl -s https://codecov.io/bash)
